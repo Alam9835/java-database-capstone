@@ -1,7 +1,6 @@
 
 ---
 
-# ✅ 2. FIX `user_stories.md` (CRITICAL FOR MARKS)
 
 👉 Replace with this:
 
