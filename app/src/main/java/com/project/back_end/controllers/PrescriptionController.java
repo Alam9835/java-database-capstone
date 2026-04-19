@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class PrescriptionController {
 
     @PostMapping
-    public String savePrescription() {
-        return "Saved";
+    public String savePrescription(@RequestBody String prescription) {
+        return "Prescription saved: " + prescription;
     }
 }
