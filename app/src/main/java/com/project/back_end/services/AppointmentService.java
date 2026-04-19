@@ -5,7 +5,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class AppointmentService {
 
-    public String bookAppointment() {
-        return "Appointment booked";
+    public String bookAppointment(String patient) {
+        return "Appointment booked for " + patient;
+    }
+
+    public String getAppointments() {
+        return "Appointments retrieved";
     }
 }
