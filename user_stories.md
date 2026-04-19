@@ -2,7 +2,6 @@
 ---
 
 
-👉 Replace with this:
 
 ```markdown
 # User Stories
