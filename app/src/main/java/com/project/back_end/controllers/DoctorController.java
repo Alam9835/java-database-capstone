@@ -10,4 +10,9 @@ public class DoctorController {
     public String getDoctors() {
         return "Doctors list";
     }
+
+    @GetMapping("/{id}")
+    public String getDoctorById(@PathVariable Long id) {
+        return "Doctor ID: " + id;
+    }
 }
