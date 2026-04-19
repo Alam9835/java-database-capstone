@@ -1,0 +1,54 @@
+package com.project.back_end.models;
+
+import java.time.LocalDateTime;
+
+public class Appointment {
+
+    private Long id;
+    private Long patientId;
+    private Long doctorId;
+    private LocalDateTime appointmentTime;
+
+    // Constructor
+    public Appointment() {}
+
+    public Appointment(Long id, Long patientId, Long doctorId, LocalDateTime appointmentTime) {
+        this.id = id;
+        this.patientId = patientId;
+        this.doctorId = doctorId;
+        this.appointmentTime = appointmentTime;
+    }
+
+    // Getters and Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getPatientId() {
+        return patientId;
+    }
+
+    public void setPatientId(Long patientId) {
+        this.patientId = patientId;
+    }
+
+    public Long getDoctorId() {
+        return doctorId;
+    }
+
+    public void setDoctorId(Long doctorId) {
+        this.doctorId = doctorId;
+    }
+
+    public LocalDateTime getAppointmentTime() {
+        return appointmentTime;
+    }
+
+    public void setAppointmentTime(LocalDateTime appointmentTime) {
+        this.appointmentTime = appointmentTime;
+    }
+}
